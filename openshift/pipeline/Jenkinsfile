@@ -1,0 +1,6 @@
+node('nodejs') {
+  stage 'build'
+  openshiftBuild(buildConfig: 'nodejsui5', showBuildLogs: 'true')
+  stage 'deploy'
+  openshiftDeploy(deploymentConfig: 'nodejsui5')
+}

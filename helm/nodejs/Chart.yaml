@@ -1,0 +1,9 @@
+name: nodejsui5
+version: 0.1
+description: A example to get togheter OpenUI5 and Node.JS on Openshift based on Minishift
+keywords:
+- quickstart
+- nodejs
+home: https://github.com/mwapro/nodejsui5
+sources:
+- https://github.com/mwapro/nodejsui5.git
